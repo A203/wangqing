@@ -1,0 +1,22 @@
+package com.geminno.demo;
+
+public class Demo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int i=5;
+        int j=3;
+        System.out.println("i+j="+(i+j));
+        System.out.println("i-j="+(i-j));
+        System.out.println("i/j="+(i/j));
+        System.out.println("i%j="+(i%j));
+        //Ç°×ºµÝÔö
+        System.out.println(++i);
+        //ºó×ºµÝ¼õ
+        System.out.println(j--);
+	}
+
+}

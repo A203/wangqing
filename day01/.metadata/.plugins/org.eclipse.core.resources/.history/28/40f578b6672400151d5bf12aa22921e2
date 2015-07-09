@@ -1,0 +1,28 @@
+package com.geminno.switchdemo;
+
+import java.util.Scanner;
+
+public class Demo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner scanner=new Scanner(System.in);
+	     String dayString=scanner.nextLine();
+	     int day=0;
+	        //根据month的值判断是几月份；
+	        switch(dayString.toLowerCase()){
+	        case "Monday";break;
+	        case "Tuesday";break;
+	        case "Wednesday";break;
+	        case "Thusday";break;
+	        case "Friday";break;
+	        case "Saturday";break;
+	        case "Sunday";break;
+	        default:monthString="error day";
+	        }
+	}
+
+}

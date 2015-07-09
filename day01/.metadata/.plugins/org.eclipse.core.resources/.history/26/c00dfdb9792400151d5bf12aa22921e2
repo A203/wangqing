@@ -1,0 +1,28 @@
+package com.geminno.demo;
+
+public class VarDemo {
+
+	/**
+	 * @param args
+	 */
+	static int number;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//
+        System.out.println(VarDemo.number);
+        //访问方式，对象，属性名
+        VarDemo demo1=new VarDemo();
+       demo1.show();
+        
+        VarDemo demo2=new VarDemo();
+        demo2.show();    
+	}
+	
+	
+	public void show()
+	{
+		number++;
+		System.out.println(number);
+	}
+
+}
