@@ -1,0 +1,26 @@
+package com.geminno.exercisedemo;
+
+public class Calculator {
+
+	/**
+	 * @param args
+	 */
+	int num1,num2;
+	public Calculator(int n1,int n2){
+		num1=n1;
+		num2=n2;
+	}
+	public Calculator() {
+		// TODO Auto-generated constructor stub
+	}
+	void add(){
+		System.out.println(num1+num2);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator c=new Calculator();
+
+	}
+
+}

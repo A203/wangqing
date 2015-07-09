@@ -1,0 +1,6 @@
+package com.geminno.homework;
+
+public interface Attack {
+	//¿É¹¥»÷µÄ
+    void attack();
+}

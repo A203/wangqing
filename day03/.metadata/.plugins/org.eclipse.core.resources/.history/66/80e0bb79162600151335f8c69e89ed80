@@ -1,0 +1,7 @@
+package com.geminno.homework;
+
+public interface Move {
+	//¿ÉÒÆ¶¯µÄ
+    void move();
+
+}

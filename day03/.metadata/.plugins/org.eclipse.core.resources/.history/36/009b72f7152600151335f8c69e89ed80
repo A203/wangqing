@@ -1,0 +1,10 @@
+package com.geminno.homework;
+
+public class Move {
+
+	//¿ÉÒÆ¶¯µÄ
+			interface Mobile {
+				  void move();
+			}
+
+}

@@ -1,0 +1,16 @@
+package com.geminno.exercisedemo;
+
+public class Modifier02 {
+
+	public void methodB1(){
+		Modifier01.a=new Modifier01();
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

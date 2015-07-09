@@ -1,0 +1,52 @@
+package com.geminno.homework;
+
+	class Army{
+		Weapon[] w;
+		int max;
+		int j=0;
+		
+		public int getMax(){
+			return max;
+		}
+		
+		public void setMax(int max){
+			this.max=max;
+		}
+		
+		public Army(int max){
+			w=new Weapon[max];
+			this.max=max;
+			System.out.println("您最多拥有"+max+"个武器！！！");
+		}
+		
+		public void addWeapon(Weapon wa){
+			if(j<getMax()){
+				System.out.println("武器库足够！"+"已增加"+(j+1)+"个武器");
+				w[j]=wa;
+				j++;
+			}
+			else{
+				System.out.println("警告：武器库已满！！！不能增加武器！！！");
+			}
+		}
+		
+		public void attackAll(){
+			System.out.println();
+			System.out.println("所有武器准备战斗！！！");
+			for(int i=0;i<w.length;i++){
+				System.out.println((i+1)+"号");
+				w[i].attack();
+			}
+		}
+		
+		public void moveAll(){
+			System.out.println();
+			System.out.println("所有武器准备移动！！！");
+			for(int i=0;i<w.length;i++){
+				System.out.println((i+1)+"号");
+				w[i].move();
+			}
+		}
+	}
+	
+

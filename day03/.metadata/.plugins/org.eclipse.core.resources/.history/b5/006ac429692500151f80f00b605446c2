@@ -1,0 +1,18 @@
+package com.geminno.exercise;
+
+public class AnmialText {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		//抽象类是不能实例化的
+		Animal anmial=new Animal();//编译出错
+		
+		//Animal animal=new Monkey();//new Tiger();
+		animal.sleep();
+	}
+
+}

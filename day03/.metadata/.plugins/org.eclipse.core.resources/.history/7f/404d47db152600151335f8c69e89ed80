@@ -1,0 +1,11 @@
+package com.geminno.homework;
+
+public class Attack {
+
+		//¿É¹¥»÷µÄ
+				interface Assaultable {
+					 void attack();
+				}
+	}
+
+
